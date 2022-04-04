@@ -1,6 +1,8 @@
 const { name, height, message } = require("../index.js");
 
-/*
+const name = 'susan';
+const height = 40;
+const message = `${name} is ${height} inches tall`;
 describe('what-is-a-test', () => {
   describe('Name', () => {
     it('returns "Susan"', () => {
@@ -22,4 +24,6 @@ describe('what-is-a-test', () => {
     })
   })
 })
-*/
+module.exports = {name, height, message};
+console.log(message);
+
